@@ -54,8 +54,52 @@ section.sobre{ /*  Sessão sobre  */
     height:700px;
     background-color: #017143;
     border-radius: 50%;
+
 }
 
 .extras img{
     width: 300px;
+    
+}
+
+.social-media{
+   position: absolute;
+   right: 203px;
+   top: 150px;
+
+}
+
+.social-media img{
+    display: block;
+    width: 35px;
+    height: 30px;
+    margin: 30px 0;
+}
+
+.texto-sobre{
+    margin-top: 70px;
+}
+
+.texto-sobre h1{
+    font-size: 40px;
+}
+
+.texto-sobre p{
+    margin: 20px 0;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 700px;    
+}
+
+.texto-sobre button{
+    border: 0;
+    background-color: #017143;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    width: 120px;
+    height: 40px;
+    font-weight: bold;
+    cursor: pointer;
 }
